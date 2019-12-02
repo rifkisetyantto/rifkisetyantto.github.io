@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Porofolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <style>
+.judul {
+    text-align: left;
+    color: white;
+    padding-top: 16%;
+    padding-left: 5%;
+}
+
+#hello {
+    color: blue;
+    background-color: white;
+    display: inline;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 60%;
+    display: inline-block;
+    background-image: url();
+    text-align: center;
+}
+
+.sosmed {
+    margin-left: 74px;
+}
+
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#header3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 110, 255);
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Kocheng Oren.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+    </style>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+        <div class="pb-5" style="background-image: url(wallpaper.png); background-color: blue; padding-top: 15px; opacity: 0.8;">    
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-transparent">
+                <a class="navbar-brand font-weight-bold" style="color: white;" href="#">RIFKI</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                            <a class="nav-item nav-link active text-light font-weight-bold" href="#home">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#about">About</a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#service">Service</a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#">Work</a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#">Resume</a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#">Blog</a>
+                            <a class="nav-item nav-link text-light font-weight-bold" href="#contact">Contact</a>
+                    </div>
+                </div>
+    
+            </nav>
+                <div id= "home" class="judul">
+                    <p id="hello">Hello !</p>
+                    <h1>I Am <span style="font-weight:bold">Android Developer</span></h1>
+                    <p style="font-size: 16px; width: 400px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel aliquid repellat earum inventore asperiores aspernatur modi exercitationem reprehenderit quidem itaque eius culpa repellendus accusantium vero corrupti molestiae, odio, accusamus
+                        esse. </p>
+                </div>
+                <div class="sosmed">
+                    <div class="row" style="z-index: 1;">
+                        <span class="dot">
+                            <i class='fab fa-facebook' style='font-size:36px; color: white;'></i>
+                        </span>
+                        <span class="dot">
+                            <i class='fab fa-twitter' style='font-size:36px; color: white;'></i>
+                        </span>
+                        <span class="dot">
+                            <i class='fab fa-linkedin' style='font-size:36px; color: white;'></i>
+                        </span>
+                        <span class="dot">
+                                <i class='fab fa-instagram' style='font-size:36px; color: white;'></i>
+                        </span>
+                        <span class="dot">
+                                <i class='fab fa-github' style='font-size:36px; color: white;'></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="container">
+        <div class="row " style="padding-top:100px ;">
+                <div class="col-5">
+                    <img src="Rifki.jpg" style="width: 418px;
+                                height: 518px;">
+                </div>
+    
+                <div id="about" class="col">
+                    <h5><u><b>About Me</b></u></h5>
+                    <h3 style="color: rgb(0, 153, 255);">
+                            Hello Nama Saya Rifki Dwi setyanto!!
+                    </h3>
+                    <p  class="lead" style="font-size: medium;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo elementum posuere. Ut aliquam metus quis laoreet elementum. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna volutpat posuere quis consectetur quam.
+                    </p>
+                
+                    <div class="row">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                           <span><i class="fa fa-map-marker"></i> Location </span>
+                                               : 17121, Bekasi Utara, Bekasi.
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                           <span><i class="fa fa-calendar"></i> Age </span>
+                                               : 22
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                           <span><i class="fa fa-phone"></i> Phone </span>
+                                               : +62 896-998-5935
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                           <span><i class="fa fa-envelope"></i> Email </span>
+                                               : rifkisetyanto@gmail.com
+                                    </div>
+                                <div class="col-md-6" style="padding-top:50px ;">
+                                    <a href="#" class="btn btn-outline-danger" style="padding: 10px;">DOWNLOAD RESUME</a>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-4" style="background-color:whitesmoke;">
+        <div class="container">
+            <div id="service" class="row">
+                <a class="badge badge-primary mx-auto mt-5" style="font-size: 12pt; width: 7rem;">COBA DULU</a>
+            </div>
+            
+            <h1 style="text-align: center;">Seharusnya ini di tengah</h1>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut illum dignissimos rerum cumque ducimus ipsum consequatur eaque quam quos molestias ipsa quidem rem nesciunt, voluptatum iure recusandae. Consequatur, quibusdam?</p>
+
+            <div class="row mt-4">
+                    <div class="card-group">
+                            <div class="card">
+                              <img src="laptop.png" class="card-img-top mx-auto mt-3" alt="..." style="height: 50px; width: 50px;">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Web Development</strong></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="bar-graph.png" class="card-img-top mx-auto mt-3" alt="..." style="height: 50px; width: 50px;">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Digital Marketing</strong></h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="pie-chart.png" class="card-img-top mx-auto mt-3" alt="..." style="height: 50px; width: 50px;">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Branding & Identity</strong></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+            <div class="row mt-4">
+                    <div class="card-group">
+                            <div class="card">
+                              <img src="stack.png" class="card-img-top mx-auto mt-3" alt="..." style="height: 50px; width: 50px;">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Customizability</strong></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="respon.png" class="card-img-top mx-auto mt-3" alt="..."style="height: 50px; width: 50px;" >
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Responsive</strong></h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="camera.png" class="card-img-top mx-auto mt-3" alt="..." style="height: 50px; width: 50px;">
+                              <div class="card-body">
+                                <h5 class="card-title"><strong>Photography</strong></h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                              </div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+
+
+    <div class="parallax"></div>
+        <div class="container">
+            <div id="contact" class="row">
+                    <a class="badge badge-primary mx-auto mt-5" style="font-size: 12pt;">Coba buat Contact</a>
+                </div>
+                
+                <h1 style="text-align: center;">Ini ditengah buat judul contact</h1>
+                <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aut illum dignissimos rerum cumque ducimus ipsum consequatur eaque quam quos molestias ipsa quidem rem nesciunt, voluptatum iure recusandae. Consequatur, quibusdam?</p>
+
+            <div class="row">
+                <div class="col-6">
+                    <form>
+                            <div class="form-group">
+                              <input type="text" class="form-control" id="name" placeholder="Name*">
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="email" class="form-control" id="email" placeholder="Email*">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="pesan" rows="5" placeholder="Your Message Here.."></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-top: 30px;">Submit</button>
+                    </form>
+                </div>
+                    <div class="col-6">
+                            <div class="card w-50">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                      <a href="#" class="btn btn-primary">Button</a>
+                                    </div>
+                                  </div>
+                    </div>
+                </div>
+
+        </div>
+        </div>    
+</body>
+
+</html>
